@@ -13,7 +13,7 @@ int main(void)
 	int mins = 0;
 	int hours = 0;
 
-	while (mins <= 59 && hours <= 23)
+	while (mins <= 59 || hours <= 23)
 	{
 		printf("%02d:%02d\n", hours, mins);
 		mins++;
